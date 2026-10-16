@@ -9,6 +9,7 @@
 
 | 项目 | 内容 | 状态 |
 |---|---|---|
+| [CUDA 算子优化实验仓库](https://github.com/a962695448-rgb/cuda-kernel-lab) | 手写 SGEMM 六级优化（RTX 5090 上达到 cuBLAS 的 80.9%）、WMMA Tensor Core HGEMM，以及 Reduce/Softmax/RMSNorm/转置；附实测数据与学习笔记 | 个人项目 |
 | [Hadamard 变换 CUDA 加速与 INT4 融合](https://github.com/a962695448-rgb/Learning-CUDA/tree/master/03_hadamard_tc/a962695448-rgb) | warp 寄存器与 WMMA Tensor Core 两种实现；Hadamard 与 INT4 量化融合；适配天数、沐曦、壁仞、昇腾、摩尔 5 个国产 GPU 平台 | [上游 PR #69](https://github.com/InfiniTensor/Learning-CUDA/pull/69) 评审中 |
 | [NineToothed CPU 参考解释器与差分调试器](https://github.com/a962695448-rgb/ninetoothed/tree/add-cpu-interpreter-debugger) | 复用 SSA 编译链实现 CPU 解释器；支持逐 pass 差分、断点、失败回放；A100 上 GPU 差分 15/15 通过 | [上游 PR #220](https://github.com/InfiniTensor/ninetoothed/pull/220) 评审中 |
 
